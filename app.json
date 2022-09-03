@@ -1,0 +1,32 @@
+{
+  "name": "PYTHON",
+  "description": "PYTHON ROBOT ",
+  "repository": "https://github.com/Noob-mukesh/password",
+  "logo": "https://telegra.ph/file/5c26b2c17722757384490.jpg",
+  "keywords": ["Telegram", "PASSWORD"],
+  "env": {
+    "ENV": {
+      "description": "Set it to anything to enable configuration by environment variables.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from @BotFather"
+    },
+    "APP_ID": {
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+    },
+    "API_HASH": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+  },
+   "addons": [{
+    "plan": "heroku-postgresql"
+  }],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
