@@ -4,10 +4,7 @@
         "BOT_TOKEN": {
             "description": "telegram bot token here",
             "required": true
-        },        
-        "MONGO_URL": {
-            "description": "mongo db url here",
-            "required": true
+  
         },
         "BOT_USERNAME": {
             "description": "telegram bot username here without @",
@@ -29,10 +26,7 @@
             "required": true
             "value": "mr_sukkun"
         },
-        "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "required": false
-        },
+        
         "ADMINS": {
         "description": "enter admin id"
         "value": "5207640479"
