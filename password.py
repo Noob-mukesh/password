@@ -35,7 +35,7 @@ async def start(client, message):
         await message.reply_text("Hi! My name is Ishi. I'm an Artificial Intelligence\n /chatbot - [on|off]")
 
 
-ran1=string.ascii_uppercase
+"""ran1=string.ascii_uppercase
 #print(ran1)
 ran2=string.ascii_lowercase
 ran3=string.punctuation
@@ -52,5 +52,5 @@ ran.extend(list(ran4))
 print('Your Password is:\n')
 random.shuffle(ran)
 print("" .join(ran[0:password]))
-print(" \n Join @Mukeshbotzone for More  By @itz_mst_boi")
+print(" \n Join @Mukeshbotzone for More  By @itz_mst_boi")"""
 bot.run()
