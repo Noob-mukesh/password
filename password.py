@@ -53,4 +53,4 @@ print('Your Password is:\n')
 random.shuffle(ran)
 print("" .join(ran[0:password]))
 print(" \n Join @Mukeshbotzone for More  By @itz_mst_boi")"""
-bot.run()
+#bot.run()
