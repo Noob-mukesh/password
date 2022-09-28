@@ -2,12 +2,12 @@
 # By @itz_mst_boi
 # source:-  https://github.com/Noob-mukesh/password
 
-from pyrogram import Client, filters
+"""from pyrogram import Client, filters
 from pyrogram.types import *
-import requests
+import requests"""
 import random  
 import string
-import os
+"""import os
 import re
 
 API_ID = os.environ.get("API_ID", None) 
@@ -52,5 +52,5 @@ ran.extend(list(ran4))
 print('Your Password is:\n')
 random.shuffle(ran)
 print("" .join(ran[0:password]))
-print(" \n Join @Mukeshbotzone for More  By @itz_mst_boi")"""
+print(" \n Join @Mukeshbotzone for More  By @itz_mst_boi")
 #bot.run()
