@@ -1,0 +1,7 @@
+pyrogram==1.4.16
+pymongo
+requests
+dnspython
+tgcrypto==1.2.2
+asyncio
+motor==2.5.1
