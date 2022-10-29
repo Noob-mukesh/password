@@ -2,40 +2,11 @@
 # By @itz_mst_boi
 # source:-  https://github.com/Noob-mukesh/password
 
-"""from pyrogram import Client, filters
-from pyrogram.types import *
-import requests"""
+
 import random  
 import string
-"""import os
-import re
-
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-
-bot = Client(
-    "mukeshBot" ,
-    api_id = API_ID,
-    api_hash = API_HASH ,
-    bot_token = BOT_TOKEN
-)
 
 
-async def is_admins(chat_id: int):
-    return [
-        member.user.id
-        async for member in bot.iter_chat_members(
-            chat_id, filter="administrators"
-        )
-    ]
-
-@bot.on_message(filters.command("start"))
-async def start(client, message):
-        await message.reply_text("Hi! My name is Ishi. I'm an Artificial Intelligence\n /chatbot - [on|off]")
-
-
-"""
 ran1=string.ascii_uppercase
 #print(ran1)
 ran2=string.ascii_lowercase
